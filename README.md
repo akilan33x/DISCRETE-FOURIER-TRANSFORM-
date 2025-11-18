@@ -11,7 +11,7 @@ PC installed with SCILAB.
 # PROGRAM: 
 // DISCRETE FOURIER TRANSFORM 
 1.DIRECT METHOD
-
+```
 clc; 
 clear; 
 xn=[1 1 1 1 0 0 0 0]; 
@@ -45,9 +45,9 @@ plot2d3(K1,angle);
 xlabel('frequency(Hz)'); 
 ylabel('Phase'); 
 title('Phase spectrum'); 
-
+```
 2.FFT Method
-
+```
 clear; 
 clc; 
 close; 
@@ -83,7 +83,7 @@ plot2d3(n2,y)
 xlabel('Time n'); 
 ylabel('Amplitude'); 
 title('Inverse FFT OF X(K)'); 
-
+```
 
 # OUTPUT: 
 ## 1.Direct Method
